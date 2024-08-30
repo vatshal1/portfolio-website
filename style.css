@@ -248,6 +248,7 @@ span {
 #services .container .box p {
   font-size: 1.6rem;
   margin: 1rem 0 3rem;
+  text-align: justify;
 }
 
 /*! testimonial section  */
@@ -305,7 +306,7 @@ span {
 }
 #testimonial .item p {
   font-size: 1.5rem;
-  text-align: center;
+  text-align: justify;
 }
 #star {
   color: gold;
