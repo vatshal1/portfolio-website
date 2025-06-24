@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap");
+
+@import "tailwindcss";
+
+* {
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+}
+
+@keyframes blob {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.2);
+  }
+}
+
+.animate-blob {
+  animation: blob 5s linear infinite alternate;
+}
+
+.bg-skills-gradient {
+  background: linear-gradient(
+      38.73deg,
+      rgba(204, 0, 187, 0.15) 0%,
+      rgba(201, 32, 184, 0) 50%
+    ),
+    linear-gradient(
+      141.27deg,
+      rgba(0, 70, 209, 0) 50%,
+      rgba(0, 70, 209, 0.15) 100%
+    );
+}
+
+/* .clip-path-custom {
+  clip-path: polygon(0 0, 100% 0, 100% 98%, 75% 95%, 0 100%);
+} */
+.clip-path-custom-2 {
+  clip-path: polygon(0 0, 100% 0, 100% 98%, 25% 95%, 0 100%);
+}
+
+/* .clip-path-custom-3 {
+  clip-path: polygon(0 0, 100% 0, 100% 98%, 75% 96%, 0 100%);
+} */
+
+/* skills section  */
+.clip-path-custom {
+  clip-path: polygon(0 0, 100% 0, 100% 90%, 50% 100%, 0 90%);
+}
+
+/* Education section */
+.clip-path-custom-3 {
+  /* clip-path: polygon(0 0, 100% 0, 100% 92%, 90% 98%, 10% 98%, 0 92%); */
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% 97%,
+    90% 100%,
+    80% 97%,
+    70% 100%,
+    60% 97%,
+    50% 100%,
+    40% 97%,
+    30% 100%,
+    20% 97%,
+    10% 100%,
+    0 97%
+  );
+}
