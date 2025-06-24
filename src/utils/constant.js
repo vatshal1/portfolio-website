@@ -188,7 +188,7 @@ export const projects = [
       "Interactive web application that fetches and displays random jokes using external APIs. Features include category filtering. Demonstrates API integration and dynamic content rendering with a clean, humorous interface.",
     image: jokeGenerator,
     tags: ["HTML", "CSS", "JavaScript", "API"],
-    github: "https://github.com/vatshal1/todo-list",
+    github: "https://github.com/vatshal1/Joke_generator",
     webapp: "https://joke-generator-two-livid.vercel.app/",
   },
 ];
