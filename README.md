@@ -2,7 +2,7 @@
 
 A modern, responsive portfolio website showcasing my skills, projects, and experience as a MERN Stack Developer. Built with React.js and styled with Tailwind CSS, featuring smooth animations and interactive components.
 
-This portfolio is deployed on **Netlify** platforms.
+This portfolio is deployed on **Vercel** platforms.
 
 ## 📱 Social Links
 
